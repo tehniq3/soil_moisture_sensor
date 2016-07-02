@@ -96,7 +96,7 @@ if (tpore<100) lcd.print(" ");
 if (tpore<10) lcd.print(" ");
 lcd.print(tpore);
 lcd.print("h");
-if (tpminute<10) lcd.print(" ");
+if (tpminute<10) lcd.print("0");
 lcd.print(tpminute);
 lcd.print("' ");
 
