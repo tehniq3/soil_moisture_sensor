@@ -121,7 +121,7 @@ lcd.print("%");
 
 if (procentumiditate1 < pragudare) // daca pamantul e prea uscat
 {
-if (jumper = 1) digitalWrite(pinreleu1, HIGH);     // se comanda releul pentru a actiona o pompa   
+if (jumper == 1) digitalWrite(pinreleu1, HIGH);     // se comanda releul pentru a actiona o pompa   
 else digitalWrite(pinreleu1, LOW);
 lcd.setCursor(0, 1);
 lcd.print("Pump 1 is ON !  ");
@@ -130,7 +130,7 @@ delay(pauzamica);	          // pauza intre cititi
 }
 else                              // daca pamantul este suficient de umed
 {
-if (jumper = 1) digitalWrite(pinreleu1, LOW);      // releul este in repaus
+if (jumper == 1) digitalWrite(pinreleu1, LOW);      // releul este in repaus
 else digitalWrite(pinreleu1, HIGH);
 lcd.setCursor(0, 1);
 //lcd.print("Pompa oprita !  ");
@@ -167,7 +167,7 @@ lcd.print("%");
 
 if (procentumiditate2 < pragudare) // daca pamantul e prea uscat
 {
-if (jumper = 1) digitalWrite(pinreleu2, HIGH);     // se comanda releul pentru a actiona o pompa   
+if (jumper == 1) digitalWrite(pinreleu2, HIGH);     // se comanda releul pentru a actiona o pompa   
 else digitalWrite(pinreleu2, LOW);
 lcd.setCursor(0, 1);
 lcd.print("Pump 2 is ON !  ");
@@ -176,7 +176,7 @@ delay(pauzamica);	          // pauza intre cititi
 }
 else                              // daca pamantul este suficient de umed
 {
-if (jumper = 1) digitalWrite(pinreleu2, LOW);      // releul este in repaus
+if (jumper == 1) digitalWrite(pinreleu2, LOW);      // releul este in repaus
 else digitalWrite(pinreleu2, HIGH);
 lcd.setCursor(0, 1);
 //lcd.print("Pompa oprita !  ");
@@ -213,7 +213,7 @@ lcd.print("%");
 
 if (procentumiditate3 < pragudare) // daca pamantul e prea uscat
 {
-if (jumper = 1) digitalWrite(pinreleu3, HIGH);     // se comanda releul pentru a actiona o pompa   
+if (jumper == 1) digitalWrite(pinreleu3, HIGH);     // se comanda releul pentru a actiona o pompa   
 else digitalWrite(pinreleu3, LOW);
 lcd.setCursor(0, 1);
 lcd.print("Pump 3 is ON !  ");
@@ -222,7 +222,7 @@ delay(pauzamica);	          // pauza intre cititi
 }
 else                              // daca pamantul este suficient de umed
 {
-if (jumper = 1)  digitalWrite(pinreleu3, LOW);      // releul este in repaus
+if (jumper == 1)  digitalWrite(pinreleu3, LOW);      // releul este in repaus
 else digitalWrite(pinreleu3, HIGH);
 lcd.setCursor(0, 1);
 //lcd.print("Pompa oprita !  ");
@@ -259,7 +259,7 @@ lcd.print("%");
 
 if (procentumiditate4 < pragudare) // daca pamantul e prea uscat
 {
-if (jumper = 1) digitalWrite(pinreleu4, HIGH);     // se comanda releul pentru a actiona o pompa   
+if (jumper == 1) digitalWrite(pinreleu4, HIGH);     // se comanda releul pentru a actiona o pompa   
 else digitalWrite(pinreleu4, LOW);
 lcd.setCursor(0, 1);
 lcd.print("Pump 4 is ON !  ");
@@ -268,7 +268,7 @@ delay(pauzamica);	          // pauza intre cititi
 }
 else                              // daca pamantul este suficient de umed
 {
-if (jumper = 1) digitalWrite(pinreleu4, LOW);      // releul este in repaus
+if (jumper == 1) digitalWrite(pinreleu4, LOW);      // releul este in repaus
 else digitalWrite(pinreleu4, HIGH);
 lcd.setCursor(0, 1);
 //lcd.print("Pompa oprita !  ");
